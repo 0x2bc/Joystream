@@ -63,5 +63,4 @@ systemctl enable freeStorage
 ```
 
 
-check HTTP page http://<your ip>:1500 
-you should see your free storeage size here
+Everything is ready. Now you can check HTTP page http://your_ip_address:1500 and see your total available disk space
