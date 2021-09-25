@@ -21,7 +21,7 @@ freeStorage=$(df -P | awk 'NR>2{sum+=$2}END{print sum/1000000}' | awk '{print in
 while true ; do echo -e "HTTP/1.1 200 OK\n\n $freeStorage" | nc -l -p 1500 -q 1; done
 
 ```
-Save file (Ctrl+o). Exit file (Ctrl+x)
+Save file (Ctrl+o). Press Enter. Exit file (Ctrl+x)
 
 Set executable rights for your script
 
@@ -34,6 +34,9 @@ chmod +x /tmp/freeStorage.sh
 ```
   nano  /etc/systemd/system/freeStorage.service
   ```
+
+The service file below supposed you are a root user. 
+If you are not, please adjust the script accordingly.
 
 Insert text
 
@@ -54,7 +57,7 @@ WantedBy=multi-user.target
 ```
 
 
-Save file (Ctrl+o). Exit file (Ctrl+x)
+Save file (Ctrl+o). Press Enter. Exit file (Ctrl+x)
 
 Start your service.
 
