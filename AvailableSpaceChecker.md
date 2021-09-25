@@ -11,7 +11,8 @@ Login your server. Run the following commands:
 nano /tmp/freeStorage.sh
 ```
 
-Insert text
+The following script will find accessible space in your $home folder.
+Insert text. 
                                                                                                                 
 ```
 #!/bin/bash
