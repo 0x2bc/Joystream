@@ -17,7 +17,7 @@ Insert text
 #!/bin/bash
 
 
-freeStorage=$(df -P | awk 'NR>2{sum+=$2}END{print sum/1000000}' | awk '{print int(($1+0.25)/0.5)*0.5}')
+freeStorage=$(df -BG $( getent passwd "$USER" | cut -d: -f6 ) | awk 'END{print $4}' | sed 's/[^0-9]*//g')
 while true ; do echo -e "HTTP/1.1 200 OK\n\n $freeStorage" | nc -l -p 1500 -q 1; done
 
 ```
