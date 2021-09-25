@@ -84,5 +84,5 @@ iptables -I INPUT -p tcp -m tcp --dport 1500 -j ACCEPT
 
 Then restart your service
 ```
-systemctl start freeStorage
+systemctl restart freeStorage
 ```
