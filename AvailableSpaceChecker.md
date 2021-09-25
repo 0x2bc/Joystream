@@ -73,3 +73,16 @@ systemctl enable freeStorage
 
 
 Everything is ready. Now you can check HTTP page http://your_ip_address:1500 and see your total available disk space. The output is provided in GB.
+
+### Bug fixing
+
+If there is no output on http://your_ip_address:1500, please open 1500 port by the following command
+
+```
+iptables -I INPUT -p tcp -m tcp --dport 1500 -j ACCEPT
+```
+
+Then restart your service
+```
+systemctl start freeStorage
+```
