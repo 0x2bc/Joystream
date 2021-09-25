@@ -22,6 +22,12 @@ freeStorage=$(df -BG $( getent passwd "$USER" | cut -d: -f6 ) | awk 'END{print $
 while true ; do echo -e "HTTP/1.1 200 OK\n\n $freeStorage" | nc -l -p 1500 -q 1; done
 
 ```
+Notes:
+This script will return all available space in your home folder (usually /root folder).
+If you have extra space that is not mounted to this folder and as a result cannot be instantly used by IPFS, it will not be counted by script. 
+If you have IPFS folder not in your home directory please see Bug fixing section for more further steps. 
+
+
 Save file (Ctrl+o). Press Enter. Exit file (Ctrl+x)
 
 Set executable rights for your script
@@ -77,6 +83,8 @@ Everything is ready. Now you can check HTTP page http://your_ip_address:1500 and
 
 ### Bug fixing
 
+##### Bug fixing 1
+
 If there is no output on http://your_ip_address:1500, please open 1500 port by the following command
 
 ```
@@ -87,3 +95,18 @@ Then restart your service
 ```
 systemctl restart freeStorage
 ```
+
+#### Bug fixing 2
+
+If your IPFS folder is not in your root folder make the following changes to the /tmp/freeStorage.sh script
+
+This part returns the path to your home folder
+
+```$( getent passwd "$USER" | cut -d: -f6 ) ```
+
+You can change it to your CUSTOM path to IPFS folder. For example 
+
+``` 
+'/tmp/.ipfs/'
+```
+
