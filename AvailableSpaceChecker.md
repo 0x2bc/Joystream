@@ -25,7 +25,7 @@ while true ; do echo -e "HTTP/1.1 200 OK\n\n $freeStorage" | nc -l -p 1500 -q 1;
 Notes:
 This script will return all available space in your home folder (usually /root folder).
 If you have extra space that is not mounted to this folder and as a result cannot be instantly used by IPFS, it will not be counted by script. 
-If you have IPFS folder not in your home directory please see Bug fixing section for more further steps. 
+If you have IPFS folder that is not in your home directory please see Bug fixing 2 section for additional step. 
 
 
 Save file (Ctrl+o). Press Enter. Exit file (Ctrl+x)
