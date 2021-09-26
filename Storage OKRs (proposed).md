@@ -13,7 +13,7 @@ TBD Storage provider Lead should have an ability to forcely set URL to empty
 
 ## Requirements
 
-## Measurement
+### Measurement
 
 Script that will check availability of server every 10 minutes (test download a small piece of data from the server). 
 
@@ -45,7 +45,7 @@ Maintain node's diversity. Diverse set of Storage provider nodes is crucial to t
 
 ## Requirements
 
-## Measurement
+### Measurement
 
 Script that will check autonomous system (AS) names of the servers once per day.
 
@@ -80,7 +80,7 @@ When launching the landing page, some assets are often lagging behind, which giv
 
 ## Requirements
 
-## Measurement
+### Measurement
 
 Script that will check storage provider response time every hour. There should be at least 10 tests with different file sizes for every storage provider. Median values should be used.
 
@@ -110,7 +110,7 @@ Maintain the highest possible upload speed.
 
 ## Requirements
 
-## Measurement
+### Measurement
 
 Script that will check download speed every hour. There should be at least 3 tests with different file sizes for every storage provider. 
 
@@ -139,7 +139,7 @@ Maintain an extra storage capacity, in order to handle increased needs of the pl
 
 ## Requirements
 
-## Measurement
+### Measurement
 
 Storage providers should provide information about their's excess of storage capacity via script that should be installed on storage providers' nodes.  Script will check excess of storage capacity every hour. 
 Note: Available storage space is a storage space that can be instantly available.
