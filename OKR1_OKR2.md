@@ -8,7 +8,7 @@ http://194.163.131.85:3000/d/pIinMgN7k/joystream-monitoring?orgId=1&from=now-3h&
 
 ### Prerequisites 
 
-Install a script that every 10 minutes run Helios and save the output to the  following file.
+Install a script that every 10 minutes run Helios and save the output.
 
 This output will be used as an entry point for OKR 1, OKR 2 measurements.
 
@@ -46,7 +46,7 @@ Use your own pathes to the Yarn executable and to the folder where Joystream is 
 
 The output file will have the following name 
 ```
-/tmp/helios_tmp.txt
+/tmp/helios.txt
 ```
 
 # OKR 1
