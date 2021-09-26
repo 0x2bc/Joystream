@@ -82,7 +82,7 @@ AS Number is 21409. There are 1 nodes in the same AS. Nodes concentration is 1/8
 
 ```
 
-
+Text of script:
 ```
 #!/bin/bash
 
