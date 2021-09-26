@@ -113,11 +113,11 @@ targetASNumber=$(returnASNumberByID ${1})
 
 if [ -z "$targetASNumber" ]
 then
-      # "\$var is empty"
+      # "is empty"
       echo 'AS Number is EMPTY.'
 
 else
-      # "\$var is NOT empty"
+      # "is NOT empty"
 
 declare -i        totalCounter=0
 declare -i        theSameAS=0
