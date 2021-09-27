@@ -49,7 +49,7 @@ Insert text
 
 ```
 [Unit]
-Description=demo service
+Description=This service check available space and print it on your_domain_name:1500 page
 After=network.target
 StartLimitIntervalSec=0
 [Service]
