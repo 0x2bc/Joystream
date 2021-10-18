@@ -25,3 +25,9 @@ Details see here https://github.com/Joystream/helpdesk#storage-providers
 **Working Group : Storage Providrs**
 
 Details see here https://testnet.joystream.org/#/working-groups
+
+-------------------------------------------------------
+
+**Storage Lead : CLI commands**
+
+https://github.com/Joystream/joystream/tree/master/cli
