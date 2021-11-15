@@ -31,6 +31,8 @@ Providers are in the AS with concentration of concentration of SPs in a single A
 The last one to join should change AS. If it’s not clear who is the last one, one SP will be chosen to change AS within 1 week time.
 If no change after 1 week, it will reduced in salaries all SPs can be reduced in on 50% After 2 weeks it can be replaced. 
 
+
+## Usefull iformation
 Sanctions are not compounded. If there are few, the most strict will be applied.
 
 If there are 100% salary - no sanctions- for 6 months, additional 1 salary can be rewarded.
