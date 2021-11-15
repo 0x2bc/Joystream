@@ -16,7 +16,7 @@ KPIs are measured by means of the Dashboard  http://194.163.131.85:3000/d/pIinMg
 
 ## KPI: Downtime 
 
-In my opinion This is the most critical KPI thats why it’s very strict 
+In my opinion This is the most critical KPI thats why it’s very strict  
 
 | Criteria                                                    | Action                                 |
 | ----------------------------------------------------------- | -------------------------------------- |
