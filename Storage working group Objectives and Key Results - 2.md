@@ -8,9 +8,13 @@ KPIs are measured by means dashboard
 # KPIs
 
 ## Uptime-1
->90% (27/30 days) - salary*100%
-<90% - salary*50%
-<50% - storage provider can be replaced 
+
+| Criteria           | Second Header                      |
+| ------------------ | ---------------------------------- |
+| >90% (27/30 days)  | salary*100%                        |
+| <90%               | salary*50%                         |
+| <50%               | storage provider can be replaced   |
+
 
 ## Uptime-2
 When the node is down
