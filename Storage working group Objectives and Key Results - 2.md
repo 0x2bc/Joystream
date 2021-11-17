@@ -30,14 +30,14 @@ Any downtime should be avoided as much as possible.
 | Condition          | Action<sup>*</sup>                            |
 | ------------------ | --------------------------------------------- |
 | Uptime > 90% (27/30 days)  | No impact on salary                     |
-| Uptime < 90%               | Salary should be decreased by 50%       |
+| Uptime < 90%               | Salary can be decreased by 50%       |
 | Uptime < 50%               | Storage provider can be replaced        |
 
 
 | Condition                                                   | Salary impact<sup>*</sup>              |
 | ----------------------------------------------------------- | -------------------------------------- |
 | When the node is down & URL is not set to empty < 12 hours  | No impact on salary                    |
-| When the node is down & URL is not set to empty > 12 hours  | Salary should be decreased by 50%      |
+| When the node is down & URL is not set to empty > 12 hours  | Salary can be decreased by 50%      |
 | When the node is down & URL is not set to empty > 48 hours  | Storage provider can be replaced     |
 
 <sup>*</sup> Sanctions (salary impacts) are not compounded. If there are few sanctions, the most strict one should be applied.
@@ -58,7 +58,7 @@ Storage Providers must maintain as much free space as has been uploaded during t
 | Condition                                                                        | Salary impact<sup>*</sup>              |
 | ------------------------------------------------------------------------------- | -------------------------------------- |
 | Free storage > [storage size (now) - storage size (3 months ago) ]* 3           | No impact on salary                    |
-| Free storage < [storage size (now) - storage size (3 months ago) ]* 3 -         | Salary should be decreased by 50%      |
+| Free storage < [storage size (now) - storage size (3 months ago) ]* 3 -         | Salary can be decreased by 50%      |
 | Free storage < [storage size (now) ]   |  Storage provider can be replaced     |                                        |
  
 
@@ -76,7 +76,10 @@ Maintain nodes' AS<sup>**</sup> diversity. Diverse set of Storage provider nodes
 
 ### Assessment criteria
 
-If storage provides are in the AS with concentration of providers > 50%. Provider the last one to join should change AS. If that's not clear who is the last one, WG Lead will choose the provider who should change AS within 1 week. If no change after 1 week, the chosen provider will be reduced in salaries by 50%. After 2 weeks the storage provider can be replaced.  
+If storage provides are in the AS with concentration of providers > 50%, the last who joined should leave the AS. 
+If that's not clear who is the last one to join, WG Lead will ask one of the provides to leave the AS. 
+If there is no change after 1 week, the chosen provider will be reduced in salary by 50%. 
+If there is no change after 2 weeks, the storage provider can be replaced.  
 
 
 # Bonus
