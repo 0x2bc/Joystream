@@ -29,16 +29,16 @@ Any downtime should be avoided as much as possible.
 
 | Condition          | Action<sup>*</sup>                            |
 | ------------------ | --------------------------------------------- |
-| uptime>90% (27/30 days)  | no impact on salary                     |
-| uptime<90%               | salary should be decreased by 50%       |
-| uptime<50%               | storage provider can be replaced        |
+| Uptime > 90% (27/30 days)  | No impact on salary                     |
+| Uptime < 90%               | Salary should be decreased by 50%       |
+| Uptime < 50%               | Storage provider can be replaced        |
 
 
 | Condition                                                   | Salary impact<sup>*</sup>              |
 | ----------------------------------------------------------- | -------------------------------------- |
-| When the node is down & URL is not set to empty < 12 hours  | no impact on salary                    |
-| When the node is down & URL is not set to empty > 12 hours  | salary should be decreased by 50%      |
-| When the node is down & URL is not set to empty > 48 hours  |  storage provider can be replaced.     |
+| When the node is down & URL is not set to empty < 12 hours  | No impact on salary                    |
+| When the node is down & URL is not set to empty > 12 hours  | Salary should be decreased by 50%      |
+| When the node is down & URL is not set to empty > 48 hours  | Storage provider can be replaced     |
 
 <sup>*</sup> Sanctions (salary impacts) are not compounded. If there are few sanctions, the most strict will be applied.
 
@@ -57,9 +57,9 @@ Storage Providers must maintain as much free space as has been uploaded during t
 
 | Condition                                                                        | Salary impact<sup>*</sup>              |
 | ------------------------------------------------------------------------------- | -------------------------------------- |
-| Free storage > [storage size (now) - storage size (3 months ago) ]* 3           | no impact on salary                    |
-| Free storage < [storage size (now) - storage size (3 months ago) ]* 3 -         | salary should be decreased by 50%      |
-| Free storage < [storage size (now) ]   |  storage provider can be replaced.     |                                        |
+| Free storage > [storage size (now) - storage size (3 months ago) ]* 3           | No impact on salary                    |
+| Free storage < [storage size (now) - storage size (3 months ago) ]* 3 -         | Salary should be decreased by 50%      |
+| Free storage < [storage size (now) ]   |  Storage provider can be replaced     |                                        |
  
 
 ## OKR 10 - Data center Diversification 
