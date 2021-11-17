@@ -2,7 +2,7 @@
 
 ### Notes 
 
-General idea of OKRs for Storage Providers was proposed [here](https://github.com/Joystream/community-repo/blob/master/governance/Storage_WG_OKR.md)
+General idea of OKRs for Storage Providers was proposed [here](https://github.com/Joystream/community-repo/blob/master/governance/Storage_WG_OKR.md).
 
 Main quality criteria for Storage Providers:
 - Speed
