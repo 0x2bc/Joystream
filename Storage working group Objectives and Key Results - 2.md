@@ -62,7 +62,7 @@ Storage Providers must maintain as much free space as has been uploaded during t
 | Free storage < [storage size (now) ]   |  Storage provider can be replaced     |                                        |
  
 
-## OKR 10 - Data center Diversification 
+## KR 10 - Data center Diversification 
 
 ### Definition
 
