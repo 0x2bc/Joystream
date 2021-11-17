@@ -9,7 +9,7 @@ Main quality criteria for Storage Providers:
 - Geographic Location
 - Resilience
 
-General idea of OKRs for Storage Providers was proposed [here](https://github.com/Joystream/community-repo/blob/master/governance/Storage_WG_OKR.md).
+The general idea of OKRs for Storage Providers was proposed [here](https://github.com/Joystream/community-repo/blob/master/governance/Storage_WG_OKR.md).
 
 Based on that, a new OKR system with “quantitative” criteria was developed. 
 
@@ -19,7 +19,7 @@ Based on that, a new OKR system with “quantitative” criteria was developed.
 
 ### Definition
 
-Uptime is percentage of time when server is available.
+Uptime is the percentage of time when the server is available.
 
 ### Goal 
 
@@ -50,7 +50,7 @@ Free storage space on Storage provider node that is instantly available for any 
 
 ### Goal 
 
-Maintain an extra storage capacity, in order to handle increased needs of the platform.
+Maintain an extra storage capacity, in order to handle the increased needs of the platform.
 Storage Providers must maintain as much free space as has been uploaded during the last three months.
 
 ### Assessment criteria
@@ -62,7 +62,7 @@ Storage Providers must maintain as much free space as has been uploaded during t
 | Free storage < [storage size (now) ]   |  Storage provider can be replaced     |                                        |
  
 
-## KR 10 - Data center Diversification 
+## KR 10 - Datacenter Diversification 
 
 ### Definition
 
@@ -70,15 +70,15 @@ A risk management strategy when Storage providers' nodes are diversified among d
 
 ### Goal 
 
-Maintain node's diversity. Diverse set of Storage provider nodes is crucial to the success of a well-formed blockchain network.
-
-
-### Assessment criteria
-
-If storage provides are in the AS<sup>**</sup> with concentration of providers > 50%. Provider the last one to join should change AS. If that's not clear who is the last one, WG Lead will choose the provider who should change AS within 1 week. If no change after 1 week, the chosen provider will be reduced in salaries by 50%. After 2 weeks the storage provider can be replaced.  
+Maintain nodes' AS<sup>**</sup> diversity. Diverse set of Storage provider nodes is crucial to the success of a well-formed blockchain network.
 
 <sup>**</sup>AS = autonomous system
 
+### Assessment criteria
+
+If storage provides are in the AS with concentration of providers > 50%. Provider the last one to join should change AS. If that's not clear who is the last one, WG Lead will choose the provider who should change AS within 1 week. If no change after 1 week, the chosen provider will be reduced in salaries by 50%. After 2 weeks the storage provider can be replaced.  
+
+
 # Bonus
 
-If any Storavge provider works with no sanctions straight for 6 months, an additional 1 salary can be rewarded.
+If any storage provider works with no sanctions straight for 6 months, an additional 1 salary can be rewarded.
