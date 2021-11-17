@@ -4,11 +4,18 @@
 
 General idea of OKRs for Storage Providers was proposed [here](https://github.com/Joystream/community-repo/blob/master/governance/Storage_WG_OKR.md)
 
-Based on that, a new OKR system with “quantitative” metrics was developed. 
+Main quality criteria for Storage Providers:
+- Speed
+- Capacity
+- Reliability
+- Geographic Location
+- Resilience
+
+Based on that, a new OKR system with “quantitative” criteria was developed. 
 
 # OKRs
 
-## OKR 1.1 - Uptime
+## KR6 - Uptime
 
 ### Definition
 
@@ -34,7 +41,7 @@ Any downtime should be avoided as much as possible.
 | When the node is down & URL is not set to empty > 48 hours  |  storage provider can be replaced.     |
 
 
-## OKR 1.3: Free storage
+## KR4 - Free storage
 
 ### Definition
 
@@ -43,6 +50,7 @@ Free storage space on Storage provider node that is instantly available for any 
 ### Goal 
 
 Maintain an extra storage capacity, in order to handle increased needs of the platform.
+Storage Providers must maintain as much free space as has been uploaded during the last three months.
 
 ### Assessment criteria
 
@@ -53,7 +61,7 @@ Maintain an extra storage capacity, in order to handle increased needs of the pl
 | Free storage < [storage size (now) ]   |  storage provider can be replaced.     |                                        |
  
 
-## OKR: (Data center) Diversification
+## (NEW) OKR 10 - Data center Diversification
 
 ### Definition
 
