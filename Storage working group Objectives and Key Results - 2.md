@@ -2,14 +2,14 @@
 
 ### Notes 
 
-General idea of OKRs for Storage Providers was proposed [here](https://github.com/Joystream/community-repo/blob/master/governance/Storage_WG_OKR.md).
-
 Main quality criteria for Storage Providers:
 - Speed
 - Capacity
 - Reliability
 - Geographic Location
 - Resilience
+
+General idea of OKRs for Storage Providers was proposed [here](https://github.com/Joystream/community-repo/blob/master/governance/Storage_WG_OKR.md).
 
 Based on that, a new OKR system with “quantitative” criteria was developed. 
 
