@@ -40,7 +40,7 @@ Any downtime should be avoided as much as possible.
 | When the node is down & URL is not set to empty > 12 hours  | Salary should be decreased by 50%      |
 | When the node is down & URL is not set to empty > 48 hours  | Storage provider can be replaced     |
 
-<sup>*</sup> Sanctions (salary impacts) are not compounded. If there are few sanctions, the most strict will be applied.
+<sup>*</sup> Sanctions (salary impacts) are not compounded. If there are few sanctions, the most strict one should be applied.
 
 ## KR4 - Free storage
 
