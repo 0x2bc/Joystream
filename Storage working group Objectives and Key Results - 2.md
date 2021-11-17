@@ -1,31 +1,50 @@
-Main quality criteria for Storage Providers are highlighted here https://github.com/Joystream/community-repo/blob/master/governance/Storage_WG_OKR.md
+# Storage working group Objectives and Key Results
 
-KPIs are measured by means of the Dashboard  http://194.163.131.85:3000/d/pIinMgN7k/joystream-monitoring?orgId=1&refresh=10s&from=now-7d&to=now
+### Notes 
 
+General idea of OKRs for Storage Providers was proposed [here](https://github.com/Joystream/community-repo/blob/master/governance/Storage_WG_OKR.md)
 
-# KPIs
+Based on that, a new OKR system with “quantitative” metrics was developed. 
 
-## KPI: Uptime
+# OKRs
 
-| Criteria           | Action                             |
+## OKR 1.1 - Uptime
+
+### Definition
+
+Uptime is percentage of time when server is available.
+
+### Goal 
+
+Any downtime should be avoided as much as possible.
+
+### Assessment criteria
+
+| Uptime, %          | Action                             |
 | ------------------ | ---------------------------------- |
 | >90% (27/30 days)  | salary*100%                        |
 | <90%               | salary*50%                         |
 | <50%               | storage provider can be replaced   |
 
 
-## KPI: Downtime 
-
-In my opinion This is the most critical KPI thats why it’s very strict  
-
-| Criteria                                                    | Action                                 |
+| Downtime, %                                                    | Action                                 |
 | ----------------------------------------------------------- | -------------------------------------- |
 | When the node is down & URL is not set to empty < 12 hours  | salary*100%                            |
 | When the node is down & URL is not set to empty > 12 hours  | salary*50%                             |
 | When the node is down & URL is not set to empty > 48 hours  |  storage provider can be replaced.     |
 
 
-## KPI: Free storage
+## OKR 1.3: Free storage
+
+### Definition
+
+Free storage space on Storage provider node that is instantly available for any purposes.
+
+### Goal 
+
+Maintain an extra storage capacity, in order to handle increased needs of the platform.
+
+### Assessment criteria
 
 | Criteria                                                                        | Action                                 |
 | ------------------------------------------------------------------------------- | -------------------------------------- |
@@ -34,7 +53,18 @@ In my opinion This is the most critical KPI thats why it’s very strict
 | Free storage < [storage size (now) ]   |  storage provider can be replaced.     |                                        |
  
 
-## KPI: Nodes Concentration 
+## OKR: (Data center) Diversification
+
+### Definition
+
+A risk management strategy when Storage provider nodes are diversified among different data centers.
+
+### Goal 
+
+Maintain node's diversity. Diverse set of Storage provider nodes is crucial to the success of a well-formed blockchain network.
+
+
+### Assessment criteria
 
 | Criteria                                                                        | Action                                 |
 | ------------------------------------------------------------------------------- | -------------------------------------- |
