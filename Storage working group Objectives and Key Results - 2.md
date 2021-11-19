@@ -33,7 +33,7 @@ Any downtime should be avoided as much as possible.
 
 | Condition          | Action<sup>*</sup>                             |
 | ------------------ | --------------------------------------------- |
-| Uptime > 90% (27/30 days)  | No impact on salary                     |
+| Uptime > 90%               | No impact on salary                     |
 | Uptime < 90%               | Salary can be decreased by 20%          |
 | Uptime < 50%               | Storage provider can be replaced        |
 
