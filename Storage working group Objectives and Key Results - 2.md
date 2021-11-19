@@ -42,7 +42,7 @@ Any downtime should be avoided as much as possible.
 | Uptime < 50%               | Storage provider can be replaced        |
 
 
-| Condition                                                   | Salary impact<sup>*</sup>              |
+| Condition                                                   | Action<sup>*</sup>              |
 | ----------------------------------------------------------- | -------------------------------------- |
 | Node is down & URL is not set to empty < 12 hours  | No impact on salary                    |
 | Node is down & URL is not set to empty > 12 hours  | Salary can be decreased by 20%      |
@@ -64,7 +64,7 @@ Storage providers must maintain as much free space as has been uploaded during t
 
 #### Assessment criteria
 
-| Condition                                                                        | Salary impact<sup>*</sup>              |
+| Condition                                                                        | Action<sup>*</sup>              |
 | ------------------------------------------------------------------------------- | -------------------------------------- |
 | ![equation](https://latex.codecogs.com/svg.image?Free&space;Storage&space;Size&space;>&space;\left&space;(&space;StorageSize_{now}-StorageSize_{3&space;months&space;Ago}&space;\right&space;)&space;*&space;3)          | No impact on salary                    |
 | ![equation](https://latex.codecogs.com/svg.image?Free&space;Storage&space;Size&space;<&space;\left&space;(&space;StorageSize_{now}-StorageSize_{3&space;months&space;Ago}&space;\right&space;)&space;*&space;3)        | Salary can be decreased by 20%      |
