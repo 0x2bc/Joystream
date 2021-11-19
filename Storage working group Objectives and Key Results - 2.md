@@ -40,8 +40,8 @@ Any downtime should be avoided as much as possible.
 
 | Condition                                                   | Salary impact<sup>*</sup>              |
 | ----------------------------------------------------------- | -------------------------------------- |
-| Node is down & URL is not set to empty < 12 hours  | No impact on SP salary                    |
-| Node is down & URL is not set to empty > 12 hours  | Salary of SP can be decreased by 20%      |
+| Node is down & URL is not set to empty < 12 hours  | No impact on salary                    |
+| Node is down & URL is not set to empty > 12 hours  | Salary can be decreased by 20%      |
 | Node is down & URL is not set to empty > 48 hours  | Storage provider can be replaced     |
 
 <sup>*</sup> Sanctions (salary impacts) are not compounded. If there are few sanctions, the most strict one should be applied.
