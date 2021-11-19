@@ -56,7 +56,7 @@ Free storage space on Storage provider node that is instantly available for any 
 #### Goal 
 
 Maintain an extra storage capacity, in order to handle the increased needs of the platform.
-Storage Providers must maintain as much free space as has been uploaded during the last three months.
+Storage providers must maintain as much free space as has been uploaded during the last three months.
 
 #### Assessment criteria
 
@@ -75,18 +75,16 @@ A risk management strategy when Storage providers' nodes are diversified among d
 
 #### Goal 
 
-Maintain nodes' AS<sup>**</sup> diversity. Diverse set of Storage provider nodes is crucial to the success of a well-formed blockchain network.
-
-<sup>**</sup>AS = autonomous system
+Maintain diversity of autonomous system (AS) in which Storage nodes are located. Diverse set of Storage nodes is crucial to the success of a well-formed blockchain network.
 
 #### Assessment criteria
 
-If storage provides are in the AS with concentration of providers > 50%, the last who joined should leave the AS. 
-If that's not clear who is the last one to join, WG Lead will ask one of the provides to leave the AS. 
-If there is no change after 1 week, the chosen provider will be reduced in salary by 20%. 
-If there is no change after 2 weeks, the storage provider can be replaced.  
+If Storage nodes are in the AS with the total nodes' concentration  > 50%, the last Storage provider (SP) who joined should leave the AS. 
+If that's not clear who is the last one to join, WG Lead will ask one of the SP to leave the AS. 
+If there is no change after 1 week, the chosen SP will be reduced in salary by 20%. 
+If there is no change after 2 weeks, the SP can be replaced.  
 
 
 ## Bonus
 
-If any storage provider works with no sanctions straight for 6 months, an additional 1 salary can be rewarded.
+If any Storage provider works with no sanctions straight for 6 months, an additional 1 salary can be rewarded.
