@@ -83,10 +83,10 @@ Maintain diversity of autonomous system in which Storage nodes are located. Dive
 
 #### Assessment criteria
 
-If Storage nodes are in the same AS with the total concentration of nodes > 50%, the last Storage provider (SP) who joined should leave the AS. 
-If that's not clear who is the last one to join, WG Lead will ask one of the SP to leave the AS. 
-If there is no change after 1 week, the chosen SP will be reduced in salary by 20%. 
-If there is no change after 2 weeks, this SP can be replaced.  
+- If Storage nodes are in the same AS with the total concentration of nodes > 50%, the last Storage provider (SP) who joined should leave the AS. 
+- If that's not clear who is the last one to join, WG Lead will ask one of the SP to leave the AS. 
+- If there is no change after 1 week, the chosen SP will be reduced in salary by 20%. 
+- If there is no change after 2 weeks, this SP can be replaced.  
 
 
 ## Bonus
