@@ -49,7 +49,7 @@ Any downtime should be avoided as much as possible.
 | Node is down & URL is not set to empty > 48 hours  | Storage provider can be replaced     |
 
 <sup>*</sup> Sanctions (salary impacts) are not compounded. If there are few sanctions, the most strict one should be applied.
-The sanctions can only be removed after 1 month from the incident.
+Sanctions can only be removed after 1 month from the incident.
 
 ### KR4 - Free storage
 
