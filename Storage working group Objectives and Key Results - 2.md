@@ -13,7 +13,7 @@ Detailed quality criteria for Storage Providers were outlined [here](https://git
 
 Based on that, a new OKR system with “quantitative” criteria was developed. 
 
-New OKRs are applicable to every Storage provider from the Strorage WG.
+New OKRs are applicable to every Storage provider from the Strorage Working Group.
 
 ### Sanctions and Bonuses 
 
