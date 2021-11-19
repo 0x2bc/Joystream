@@ -66,9 +66,9 @@ Storage providers must maintain as much free space as has been uploaded during t
 
 | Condition                                                                        | Action<sup>*</sup>              |
 | ------------------------------------------------------------------------------- | -------------------------------------- |
-| ![equation](https://latex.codecogs.com/svg.image?\bg_white&space;Storage&space;Size&space;>&space;\left&space;(&space;StorageSize_{now}-StorageSize_{3&space;months&space;Ago}&space;\right&space;)&space;*&space;3)          | No impact on salary                    |
-| ![equation](https://latex.codecogs.com/svg.image?\bg_white&space;Storage&space;Size&space;<&space;\left&space;(&space;StorageSize_{now}-StorageSize_{3&space;months&space;Ago}&space;\right&space;)&space;*&space;3)        | Salary can be decreased by 20%      |
-| ![equation](https://latex.codecogs.com/svg.image?\bg_white&space;Storage&space;Size&space;<&space;StorageSize_{now})   |  Storage provider can be replaced     |                                        |
+| ![equation](https://latex.codecogs.com/png.image?\bg_white&space;Storage&space;Size&space;>&space;\left&space;(&space;StorageSize_{now}-StorageSize_{3&space;months&space;Ago}&space;\right&space;)&space;*&space;3)          | No impact on salary                    |
+| ![equation](https://latex.codecogs.com/png.image?\bg_white&space;Storage&space;Size&space;<&space;\left&space;(&space;StorageSize_{now}-StorageSize_{3&space;months&space;Ago}&space;\right&space;)&space;*&space;3)        | Salary can be decreased by 20%      |
+| ![equation](https://latex.codecogs.com/png.image?\bg_white&space;Storage&space;Size&space;<&space;StorageSize_{now})   |  Storage provider can be replaced     |                                        |
  
 
 ### KR 10 - Datacenter Diversification 
