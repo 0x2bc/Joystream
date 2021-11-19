@@ -1,5 +1,7 @@
 # Storage working group Objectives and Key Results - Part 2
 
+### Overview
+
 Main quality criteria for Storage Providers:
 - Speed
 - Capacity
@@ -11,11 +13,13 @@ Detailed quality criteria for Storage Providers were outlined [here](https://git
 
 Based on that, a new OKR system with “quantitative” criteria was developed. 
 
+New OKRs are applicable to every Storage provider from the Strorage WG.
+
+### Sanctions and Bonuses 
+
 In the event that a Storage Provider has violated our new OKRs, some sanctions will be assigned. The goal of assigning sanctions is to help Storage Providers understand the impact their actions have on Storage WG functioning and Atlas' users experience, prevent future violations, and repair any harm caused. Sanctions are not meant to punish, but to provide growth and development so better choices can be made in the future.
 
 The following guidelines are not absolute, but provide an outline for potential sanctions based on the specific violation. This allows for greater consistency across our Storage standards. Sanctions are assigned to be effective and appropriate based on the circumstances of the individual Storage provider and incident, including aggravating or mitigating factors, and the Storage providers' previous record within Storage WG history.
-
-OKRs are applicable to every Storage provider from the Strorage WG.
 
 ## OKRs
 
