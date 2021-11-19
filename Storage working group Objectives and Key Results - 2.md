@@ -7,7 +7,7 @@ Main quality criteria for Storage Providers:
 - Geographic Location
 - Resilience
 
-Detailed quality criteria for Storage Providers was outlined [here](https://github.com/Joystream/community-repo/blob/master/governance/Storage_WG_OKR.md).
+Detailed quality criteria for Storage Providers were outlined [here](https://github.com/Joystream/community-repo/blob/master/governance/Storage_WG_OKR.md).
 
 Based on that, a new OKR system with “quantitative” criteria was developed. 
 
