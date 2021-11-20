@@ -11,6 +11,10 @@ For testing purposes there were used two different servers with the following co
         &nbsp;&nbsp;&nbsp;RAM: 60 GB RAM  
         &nbsp;&nbsp;&nbsp;STORAGE: 1.6 TB SSD  
 
+# Useful Links
+
+Giza  https://giza-staging-a.joystream.app/  
+https://giza-staging-a.joystream.app/#/working-groups/  
 
 
 # Scope Of Testing
@@ -20,6 +24,13 @@ For testing purposes there were used two different servers with the following co
 3) Distribution Node 
 4) CLI Commands
 5) Others
+
+## Preliminary work 
+
+Configuring usage of  https://giza-staging-a.joystream.app/  website. 
+
+> If you want to use full functionality of the website https://giza-staging-a.joystream.app/  you need to set the endpoint. 
+> You can do that by clicking the JS logo in the top left and setting it to custom and putting in wss://giza-staging-a.joystream.app/rpc -- and then refresh
 
 ## 1. Giza Node
 
