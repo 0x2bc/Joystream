@@ -1,23 +1,34 @@
-### Tested Items
-- Giza node installation
+### Scope Of Testing
 
-### Node Installation
+1) Giza Node (DONE)
+2) Storage Node 
+3) Distribution Node 
+4) CLI Commands
+5) Others
+
+### 1. Giza Node
 
 #### Summary
 
-I was not able to install Giza node with setup.md manual.
-I've tried on 2 different servers (Linode VPS and Contabo VPS), but have the same result. 
+I was not able to install Giza node using `setup.md` manual. Specifically I was stuck at the following step `WASM_BUILD_TOOLCHAIN=nightly-2021-03-24 cargo +nightly-2021-03-24 build --release`
 
-My node named 0x2bc-giza-release is on the Telemetry website now https://telemetry.joystream.org/#list/Joystream%20Testnet%20giza-staging-october-21 
+I've tried on 2 different servers (Linode VPS and Contabo VPS), but with no luck. I've tried to fix the problem in different ways (see `Detailed Info` section) but nothing helped me. 
 
-
-Server configs:
+I've used on 2 different servers with the following configs:
 - Linode VPS  - Ubuntu 20.04.3 LTS
-- Contabo VPS - Ubuntu 18.04.6 LTS
+- Contabo VPS - Ubuntu 18.04.6 LTS 
+    CPU: 10 vCPU Cores
+    RAM: 60 GB RAM
+    STORAGE: 1.6 TB SSD
+
+Names of my nodes on the Telemetry website:
+- 0x2bc-giza-release
+- 0x2bc-giza-release-2nd-node
+
 
 #### Detailed Info
 
-Got an error 
+Following  `setup.md` manual on the step  `WASM_BUILD_TOOLCHAIN=nightly-2021-03-24 cargo +nightly-2021-03-24 build --release` I've got an error 
 
 ```
 
@@ -32,12 +43,9 @@ Got an error
 ```
 
 
+On my both servers rust version that was downloaded with  `./setup.sh` command was `Rustc 1.56.1 (59eed8a2a 2021-11-01)`. 
 
-
-Rust version downloaded with ./setup.sh command was  Rustc 1.56.1 (59eed8a2a 2021-11-01) on both servers. 
-
-
-How I tried to fix the problem
+I've made different approaches to fix this problem
 
 
 #### Fixing Error: Attempt 1
@@ -61,16 +69,25 @@ Using command  "cargo clean" and then installing rust manually with command "sud
 Exclusion of "containerd" from setup.sh and it's manually installation didn't help. 
 
 
-#### Fixing Error: Solutio
+#### Fixing Error: Solution
 
 Finally I used the binary for the current chain and "chainspec-raw.json" file from /root/bin/.
 This helped. 
 
 
+### 2. Storage Node
 
+TBD
 
+### 3. Distribution Node 
 
+TBD
 
--- NOTE 2 --
+### 4. CLI Commands
 
-Telemetry double entry
+TBD
+
+### 5. Others
+
+TBD
+
