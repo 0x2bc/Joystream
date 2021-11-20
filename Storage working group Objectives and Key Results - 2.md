@@ -51,6 +51,11 @@ Any downtime should be avoided as much as possible.
 <sup>*</sup> Sanctions (salary impacts) are not compounded. If there are few sanctions, the most strict one should be applied.
 Sanctions can only be removed after 1 month from the incident.
 
+#### Data source
+
+- [Dashboard](http://194.163.131.85:3000/d/pIinMgN7k/joystream-monitoring?orgId=1&refresh=10s&from=now-7d&to=now) 
+- [Helios Report Archive](https://joystreamstats.live/static/helios/)
+
 ### KR4 - Free storage
 
 #### Definition
@@ -66,10 +71,15 @@ Storage providers must maintain as much free space as has been uploaded during t
 
 | Condition                                                                        | Action<sup>*</sup>              |
 | ------------------------------------------------------------------------------- | -------------------------------------- |
-| ![equation](https://latex.codecogs.com/png.image?\bg_white&space;Storage&space;Size&space;>&space;\left&space;(&space;StorageSize_{now}-StorageSize_{3&space;months&space;Ago}&space;\right&space;)&space;*&space;3)          | No impact on salary                    |
-| ![equation](https://latex.codecogs.com/png.image?\bg_white&space;Storage&space;Size&space;<&space;\left&space;(&space;StorageSize_{now}-StorageSize_{3&space;months&space;Ago}&space;\right&space;)&space;*&space;3)        | Salary can be decreased by 20%      |
-| ![equation](https://latex.codecogs.com/png.image?\bg_white&space;Storage&space;Size&space;<&space;StorageSize_{now})   |  Storage provider can be replaced     |                                        |
+| FreeStorageSpace  > [ContentDirectory<sub>now</sub>-ContentDirectory<sub>3 months ago</sub>]           | No impact on salary                    |
+| FreeStorageSpace  < [ContentDirectory<sub>now</sub>-ContentDirectory<sub>2 months ago</sub>]           | Salary can be decreased by 20%      |
+| FreeStorageSpace  < [ContentDirectory<sub>now</sub>-ContentDirectory<sub>1 months ago</sub>] / 4   |  Storage provider can be replaced     |                                        |
  
+ 
+ #### Data source
+
+- Data provided by Storage Providers
+- Discord Joystream-bot (shows the current size of Content Directory)
 
 ### KR 10 - Datacenter Diversification 
 
@@ -88,7 +98,13 @@ Maintain diversity of autonomous system in which Storage nodes are located. Dive
 - If there is no change after 1 week, the chosen SP will be reduced in salary by 20%. 
 - If there is no change after 2 weeks, this SP can be replaced.  
 
+ #### Data source
+
+[Dashboard](http://194.163.131.85:3000/d/pIinMgN7k/joystream-monitoring?orgId=1&refresh=10s&from=now-7d&to=now) 
+Autonomous system information can be manually derived from the URLs (IPs) of Storage Provider's node. This information 
 
 ## Bonus
 
-If any Storage provider works with no sanctions straight for 6 months, an additional 1 salary can be rewarded.
+If any Storage provider works with no sanctions straight for 3 months, its salary can be increased by 10% in total.
+If any Storage provider works with no sanctions straight for 6 months, its salary can be increased by 25% in total. 
+
