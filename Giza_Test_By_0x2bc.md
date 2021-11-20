@@ -1,15 +1,21 @@
-Tested Items
+### Tested Items
 - Giza node installation
 
-## NODE INSTALLATION
+### Node Installation
+
+#### Summary
 
 I was not able to install Giza node with setup.md manual.
 I've tried on 2 different servers (Linode VPS and Contabo VPS), but have the same result. 
+
+My node named 0x2bc-giza-release is on the Telemetry website now https://telemetry.joystream.org/#list/Joystream%20Testnet%20giza-staging-october-21 
+
 
 Server configs:
 - Linode VPS  - Ubuntu 20.04.3 LTS
 - Contabo VPS - Ubuntu 18.04.6 LTS
 
+#### Detailed Info
 
 Got an error 
 
@@ -59,11 +65,6 @@ Exclusion of "containerd" from setup.sh and it's manually installation didn't he
 
 Finally I used the binary for the current chain and "chainspec-raw.json" file from /root/bin/.
 This helped. 
-
-#### General Info
-
-
-My node named 0x2bc-giza-release is on the Telemetry website now https://telemetry.joystream.org/#list/Joystream%20Testnet%20giza-staging-october-21 
 
 
 
