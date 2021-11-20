@@ -1,4 +1,19 @@
-### Scope Of Testing
+# Overview 
+
+Below is the result of testing Giza release provided by @0x2bc.
+
+You can find the scope of testing in the "Scope Of Testing" section.
+
+For testing purposes there were used two different servers with the following configs:
+- Linode VPS  - Ubuntu 20.04.3 LTS
+- Contabo VPS - Ubuntu 18.04.6 LTS  
+        &nbsp;&nbsp;&nbsp;CPU: 10 vCPU Cores  
+        &nbsp;&nbsp;&nbsp;RAM: 60 GB RAM  
+        &nbsp;&nbsp;&nbsp;STORAGE: 1.6 TB SSD  
+
+
+
+# Scope Of Testing
 
 1) Giza Node (DONE)
 2) Storage Node 
@@ -6,29 +21,37 @@
 4) CLI Commands
 5) Others
 
-### 1. Giza Node
+## 1. Giza Node
 
 #### Summary
 
-I was not able to install Giza node using `setup.md` manual. Specifically I was stuck at the following step `WASM_BUILD_TOOLCHAIN=nightly-2021-03-24 cargo +nightly-2021-03-24 build --release`
+I was not able to install Giza node using `setup.md` manual. Specifically I was stuck at the following step 
+
+```WASM_BUILD_TOOLCHAIN=nightly-2021-03-24 cargo +nightly-2021-03-24 build --release```
 
 I've tried on 2 different servers (Linode VPS and Contabo VPS), but with no luck. I've tried to fix the problem in different ways (see `Detailed Info` section) but nothing helped me. 
-
-I've used on 2 different servers with the following configs:
-- Linode VPS  - Ubuntu 20.04.3 LTS
-- Contabo VPS - Ubuntu 18.04.6 LTS 
-    CPU: 10 vCPU Cores
-    RAM: 60 GB RAM
-    STORAGE: 1.6 TB SSD
 
 Names of my nodes on the Telemetry website:
 - 0x2bc-giza-release
 - 0x2bc-giza-release-2nd-node
 
+According to @bwhm there are three possible solution on this problem 
+
+> we have three options:
+> 1. Try more (bad)
+> 2. Use an old commit (won't be the native runtime anyway)
+> 3. Use the binary for the current chain
+
+> I'd say three is fine.  https://github.com/Joystream/joystream/releases/download/v9.3.0/joystream-node-5.1.0-9d9e77751-x86_64-linux-gnu.tar.gz
+
 
 #### Detailed Info
 
-Following  `setup.md` manual on the step  `WASM_BUILD_TOOLCHAIN=nightly-2021-03-24 cargo +nightly-2021-03-24 build --release` I've got an error 
+Following  `setup.md` manual on the step  
+
+```WASM_BUILD_TOOLCHAIN=nightly-2021-03-24 cargo +nightly-2021-03-24 build --release``` 
+
+I've got an error 
 
 ```
 
@@ -48,46 +71,42 @@ On my both servers rust version that was downloaded with  `./setup.sh` command w
 I've made different approaches to fix this problem
 
 
-#### Fixing Error: Attempt 1
+#### Attempt 1
 
-Changed command
-    WASM_BUILD_TOOLCHAIN=nightly-2021-03-24 cargo +nightly-2021-03-24 build --release 
-To 
-    WASM_BUILD_TOOLCHAIN=nightly-2021-03-24 cargo build --release
-This didn't help. 
+Changed command `WASM_BUILD_TOOLCHAIN=nightly-2021-03-24 cargo +nightly-2021-03-24 build --release` to `WASM_BUILD_TOOLCHAIN=nightly-2021-03-24 cargo build --release` This didn't help me. 
 
-#### Fixing Error: Attempt 2
+#### Attempt 2
  
 I manually installed cargo and rust and this didn't help. 
 
-#### Fixing Error: Attempt 3
+#### Attempt 3
  
-Using command  "cargo clean" and then installing rust manually with command "sudo apt install rustc" didn't help
+Using command  `cargo clean` and then installing rust manually with command `sudo apt install rustc` didn't help
 
-#### Fixing Error: Attempt 4
+#### Attempt 4
 
-Exclusion of "containerd" from setup.sh and it's manually installation didn't help. 
+Exclusion of `containerd` from `setup.sh` and it's manually installation didn't help. 
 
 
-#### Fixing Error: Solution
+#### Solution
 
-Finally I used the binary for the current chain and "chainspec-raw.json" file from /root/bin/.
+Finally I used the binary for the current chain and `chainspec-raw.json` file from `/root/bin/`.
 This helped. 
 
 
-### 2. Storage Node
+## 2. Storage Node
 
 TBD
 
-### 3. Distribution Node 
+## 3. Distribution Node 
 
 TBD
 
-### 4. CLI Commands
+## 4. CLI Commands
 
 TBD
 
-### 5. Others
+## 5. Others
 
 TBD
 
