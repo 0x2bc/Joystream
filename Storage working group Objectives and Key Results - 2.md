@@ -105,6 +105,6 @@ Autonomous system information can be manually derived from the URLs (IPs) of Sto
 
 ## Bonus
 
-If any Storage provider works with no sanctions straight for 3 months, its salary can be increased by 10% in total.
-If any Storage provider works with no sanctions straight for 6 months, its salary can be increased by 25% in total. 
+If any Storage provider works with no sanctions straight for 3 months, its salary can be increased by 10% in total.  
+If any Storage provider works with no sanctions straight for 6 months, its salary can be increased by 25% in total.   
 
