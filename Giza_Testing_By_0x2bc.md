@@ -88,15 +88,13 @@ I've got an error
       = help: add `#![feature(btree_retain)]` to the crate attributes to enable
 ```
 
+On my both servers I've downloaded Rust during  `./setup.sh` execution. On both servers Rust version was `Rustc 1.56.1 (59eed8a2a 2021-11-01)`. 
 
-On my both servers rust version that was downloaded with  `./setup.sh` command was `Rustc 1.56.1 (59eed8a2a 2021-11-01)`. 
-
-I've made different approaches to fix this erroe:
-
+Below are description of my attempts to overcome the problem. 
 
 #### Attempt 1
 
-Changed command `WASM_BUILD_TOOLCHAIN=nightly-2021-03-24 cargo +nightly-2021-03-24 build --release` to `WASM_BUILD_TOOLCHAIN=nightly-2021-03-24 cargo build --release` This didn't help me. 
+I changed command `WASM_BUILD_TOOLCHAIN=nightly-2021-03-24 cargo +nightly-2021-03-24 build --release` to `WASM_BUILD_TOOLCHAIN=nightly-2021-03-24 cargo build --release` This didn't help me. 
 
 #### Attempt 2
  
