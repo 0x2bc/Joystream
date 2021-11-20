@@ -118,7 +118,7 @@ This didn't help me.
 #### Solution
 
 Finally I used the binary from the Joystream main branch and `chainspec-raw.json` Giza config file from `/root/bin/`.
-This worked fine. All two my nodes are on telemetry and fully synced.
+That worked fine for me. All two my nodes appear on the Telemetry website and are fully synced.
 
 Names of my nodes on the Telemetry website:
 - 0x2bc-giza-release
