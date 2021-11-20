@@ -117,9 +117,12 @@ This didn't help me.
 
 #### Solution
 
-Finally I used the binary for the current chain and `chainspec-raw.json` file from `/root/bin/`.
-This worked fine. 
+Finally I used the binary from the Joystream main branch and `chainspec-raw.json` Giza config file from `/root/bin/`.
+This worked fine. All two my nodes are on telemetry and fully synced.
 
+Names of my nodes on the Telemetry website:
+- 0x2bc-giza-release
+- 0x2bc-giza-release-2nd-node
 
 ## 2. Storage Node
 
